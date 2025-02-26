@@ -1,0 +1,109 @@
+body{
+    margin-left: 130px;
+    margin-right: 130px;
+    background-color: #F8F8F8;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 4rem;
+}
+
+.image img{
+    height: 42rem;
+    /* width: 52rem; */
+}
+
+.about{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about h1{
+    font-size: xxx-large;
+}
+.about p{
+    font-size: x-large ;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.position{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.position h1{
+    font-size: xxx-large;
+}
+
+.position button{
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.position button:hover{
+    background-color: #00e040 ;
+    color: black;
+}
+
+/* Jobs Css */
+
+.jobs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: white;
+}
+
+.box .content{
+    border: 2px solid grey;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:60px;
+    padding-right:60px;
+    padding-top:40px;
+}
+
+.box button{
+    min-width: 100%;
+    border-radius: 10px ;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    
+}

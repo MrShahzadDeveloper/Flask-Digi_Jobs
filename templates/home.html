@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/main.css">
+    <title>Digi_Jobs</title>
+</head>
+<body>
+    <div class="main">
+    <div class="header">
+        <div><img src="http://127.0.0.1:5000/static/HomeBulb.png" alt=""></div>
+      
+            <h1>Get your Dream Job <br> With Digi Jobs</h1>
+      
+        <div><img src="http://127.0.0.1:5000/static/HomePlane.png" alt=""></div>
+    </div>
+    <div class="image">
+        <img src="http://127.0.0.1:5000/static/HomeOffice.png" alt="">
+    </div>
+    </div>
+
+    <div class="about">
+        <img src="http://127.0.0.1:5000/static/HomePlant.png" alt="">
+        <div>
+            <h1>About</h1>
+            <p>Digi Jobs is a digital job search and career-building platform that connects job seekers with employers, helping them land their ideal roles. The illustration in the image depicts a professional work environment, symbolizing career growth, opportunities, and a welcoming workplace culture.</p>
+        </div>
+        <img src="http://127.0.0.1:5000/static/HomePlant.png" alt="">
+    </div>
+
+    <div class="position">
+        <h1>Open Positions</h1>
+        <div class="jobs">
+                {%for job in Jobs%}
+                    {% include 'job.html' %}
+                {% endfor %}
+        </div>
+        <button>Contact Us</button>
+    </div>
+
+</body>
+</html>
